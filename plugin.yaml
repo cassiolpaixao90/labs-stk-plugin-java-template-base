@@ -1,0 +1,27 @@
+schema-version: v3
+kind: plugin
+metadata:
+  name: java-template-base
+  display-name: java-template-base
+  description: golang template base
+  version: 2.0.9
+  picture: plugin.png
+
+spec:
+  type: app
+  compatibility:
+    - python
+  about: docs/about.md
+  implementation: docs/implementation.md
+  release-notes: docs/release-notes-0.0.1.md
+  requirements: docs/requirements.md
+  single-use: False
+  repository: https://github.com/cassiolpaixao90/labs-stk-plugin-java-template-base
+  technologies: # Ref: https://docs.stackspot.com/content-creator/studio/yaml-files/plugin-yaml/#technologies
+    - Api
+  stk-projects-only: false
+
+  hooks:
+    - type: render-template
+      trigger: after-render
+      path: templates
