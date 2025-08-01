@@ -1,0 +1,1 @@
+/Users/cassiopaixao/.stk/bin/stk apply plugin /Users/cassiopaixao/tmp/labs-stk-plugin-java-template-base
