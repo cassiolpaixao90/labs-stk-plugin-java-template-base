@@ -22,6 +22,6 @@ spec:
   stk-projects-only: false
 
   hooks:
-    - type: render-template
+    - type: render-templates
       trigger: after-render
       path: templates
